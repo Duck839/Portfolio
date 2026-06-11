@@ -1,6 +1,5 @@
-import { OrbitControls, RoundedBoxGeometry } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { use } from "react";
 import { useMediaQuery } from "react-responsive";
 import { Robot } from "./Robot";
 import HeroLights from "./HeroLights";
@@ -28,7 +27,7 @@ const HeroExprience = () => {
       <HeroLights />
       <group
       scale={isMobile?0.7:1}
-      position={0,-3.5,0}>
+      position={[0, -3.5, 0]}>
       <Model />
       </group>
     </Canvas>
