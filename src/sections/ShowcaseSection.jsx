@@ -1,5 +1,6 @@
 import React, { use } from "react";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -59,11 +60,11 @@ const ShowcaseSection = () => {
                 WRO Championship Robot - Designed for Reliability, Adaptability
                 and Performance
               </h2>
-              <a href="/robot" className="project-btn">
+              <Link to="/robot" className="project-btn">
                 <div className="inner">
                   <span>Read More</span>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           {/*RIGHT*/}
@@ -75,22 +76,22 @@ const ShowcaseSection = () => {
               <h2>
                 EVO Microcontroller - Custom PCB Design for Robotics Control
               </h2>
-              <a href="/EVO" className="project-btn">
+              <Link to="/EVO" className="project-btn">
                 <div className="inner">
                   <span>Read More</span>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="images/NOI.png" alt="Competitive Programming" />
               </div>
               <h2>Competitive Programming (NOI / Algorithms)</h2>
-              <a href="/NOI" className="project-btn">
+              <Link to="/NOI" className="project-btn">
                 <div className="inner">
                   <span>Read More</span>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

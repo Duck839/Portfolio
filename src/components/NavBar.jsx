@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import { useEffect, useState } from "react";
 
@@ -7,9 +8,9 @@ const NavBar = ({ constant, showBack = false }) => {
   return (
     <header className="navbar">
       <div className="inner flex items-center justify-between relative">
-        <a className="logo" href="/">
+        <Link className="logo" to="/">
           Jing Yuan
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <nav className="hidden md:block">
@@ -21,10 +22,10 @@ const NavBar = ({ constant, showBack = false }) => {
             ))}
             {showBack && (
               <li className="group">
-                <a href="/">
+                <Link to="/">
                   <span>← Home</span>
                   <span className="underline" />
-                </a>
+                </Link>
               </li>
             )}
           </ul>
@@ -62,13 +63,13 @@ const NavBar = ({ constant, showBack = false }) => {
             ))}
             {showBack && (
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   onClick={() => setMobileOpen(false)}
                   className="text-white text-lg"
                 >
                   ← Home
-                </a>
+                </Link>
               </li>
             )}
           </ul>

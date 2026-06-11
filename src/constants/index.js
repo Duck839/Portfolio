@@ -162,7 +162,7 @@ const techSpecs = [
     title: "EVO Microcontroller",
     desc: "ESP32-S3 based custom controller with 4 EV3 motor ports, 8 servo ports, and 8 I2C multiplexed ports.",
     imgPath: "images/microcontroller.png",
-    link: "/evo",
+    link: "/EVO",
   },
   {
     title: "TCS34725 x 4",
