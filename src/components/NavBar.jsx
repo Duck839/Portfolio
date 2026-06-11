@@ -5,6 +5,17 @@ import { useEffect, useState } from "react";
 const NavBar = ({ constant, showBack = false }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const handleScroll = (e, link) => {
+    if (link.startsWith("#")) {
+      e.preventDefault();
+      const targetId = link.substring(1);
+      const element = document.getElementById(targetId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <header className="navbar">
       <div className="inner flex items-center justify-between relative">
@@ -17,7 +28,7 @@ const NavBar = ({ constant, showBack = false }) => {
           <ul className="flex gap-6">
             {constant.map(({ link, name }) => (
               <li key={name}>
-                <a href={link}>{name}</a>
+                <a href={link} onClick={(e) => handleScroll(e, link)}>{name}</a>
               </li>
             ))}
             {showBack && (
@@ -50,11 +61,14 @@ const NavBar = ({ constant, showBack = false }) => {
           }`}
         >
           <ul className="flex flex-col items-center gap-6 py-6">
-            {navLinks.map(({ link, name }) => (
+            {constant.map(({ link, name }) => (
               <li key={name}>
                 <a
                   href={link}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => {
+                    setMobileOpen(false);
+                    handleScroll(e, link);
+                  }}
                   className="text-white text-lg"
                 >
                   {name}
