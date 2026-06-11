@@ -141,7 +141,7 @@ const EVO = () => {
           {/* Board photo */}
           <div className="flex items-center justify-center">
             <img
-              src="/images/EVO.png"
+              src="images/EVO.png"
               alt="EVO Microcontroller Board"
               className="w-full max-w-md rounded-xl border border-black-50 shadow-lg object-contain"
             />

@@ -70,7 +70,7 @@ const NOI = () => {
         <div className="absolute top-0 left-0 z-0">
           <img
             className="w-screen h-screen object-cover"
-            src="/images/bg.avif"
+            src="images/bg.avif"
             alt=""
           />
         </div>
@@ -185,7 +185,7 @@ const NOI = () => {
       </div>
       <span className="text-sm text-white-500 font-mono">noi-notes.pdf</span>
       <a
-        href="/images/noi-notes.pdf"
+        href="images/noi-notes.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="text-xs text-white-500 hover:text-white transition-colors"
@@ -196,7 +196,7 @@ const NOI = () => {
 
     {/* PDF iframe */}
     <iframe
-      src="/images/noi-notes.pdf"
+      src="images/noi-notes.pdf"
       title="NOI preparation notes"
       className="w-full h-600px"
     />

@@ -52,7 +52,7 @@ const ShowcaseSection = () => {
           {/*LEFT*/}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <img src="/images/WRORobot.png" alt="WRO robot" />
+              <img src="images/WRORobot.png" alt="WRO robot" />
             </div>
             <div className="text-content">
               <h2>
@@ -70,7 +70,7 @@ const ShowcaseSection = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/EVO.png" alt="EVO Microcontroller" />
+                <img src="images/EVO.png" alt="EVO Microcontroller" />
               </div>
               <h2>
                 EVO Microcontroller - Custom PCB Design for Robotics Control
@@ -83,7 +83,7 @@ const ShowcaseSection = () => {
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/NOI.png" alt="Competitive Programming" />
+                <img src="images/NOI.png" alt="Competitive Programming" />
               </div>
               <h2>Competitive Programming (NOI / Algorithms)</h2>
               <a href="/NOI" className="project-btn">

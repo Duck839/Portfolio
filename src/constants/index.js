@@ -14,14 +14,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Aspiring Engineers", imgPath: "/images/ideas.svg" },
-  { text: "National Champion", imgPath: "/images/concepts.svg" },
-  { text: "Builder", imgPath: "/images/designs.svg" },
-  { text: "CAD Designer", imgPath: "/images/code.svg" },
-  { text: "Aspiring Engineers", imgPath: "/images/ideas.svg" },
-  { text: "National Champion", imgPath: "/images/concepts.svg" },
-  { text: "Builder", imgPath: "/images/designs.svg" },
-  { text: "CAD Designer", imgPath: "/images/code.svg" },
+  { text: "Aspiring Engineers", imgPath: "images/ideas.svg" },
+  { text: "National Champion", imgPath: "images/concepts.svg" },
+  { text: "Builder", imgPath: "images/designs.svg" },
+  { text: "CAD Designer", imgPath: "images/code.svg" },
+  { text: "Aspiring Engineers", imgPath: "images/ideas.svg" },
+  { text: "National Champion", imgPath: "images/concepts.svg" },
+  { text: "Builder", imgPath: "images/designs.svg" },
+  { text: "CAD Designer", imgPath: "images/code.svg" },
 ];
 
 const counterItems = [
@@ -33,17 +33,17 @@ const counterItems = [
 
 const abilities = [
   {
-    imgPath: "/images/robot.png",
+    imgPath: "images/robot.png",
     title: "Robotics Competitions",
     desc: "Building and programming robots for national and international robotics competitions.",
   },
   {
-    imgPath: "/images/engineering.png",
+    imgPath: "images/engineering.png",
     title: "Engineering & Prototyping",
     desc: "Designing, testing, and refining robotics systems through CAD and 3D printing.",
   },
   {
-    imgPath: "/images/programming.png",
+    imgPath: "images/programming.png",
     title: "Programming & Algorithms",
     desc: "Programming solutions through C++, Python, and competitive programming.",
   },
@@ -52,23 +52,23 @@ const abilities = [
 const techStackImgs = [
   {
     name: "C++",
-    imgPath: "/images/logos/cpp.png",
+    imgPath: "images/logos/cpp.png",
   },
   {
     name: "Python",
-    imgPath: "/images/logos/python.png",
+    imgPath: "images/logos/python.png",
   },
   {
     name: "PyBricks",
-    imgPath: "/images/logos/pybricks.png",
+    imgPath: "images/logos/pybricks.png",
   },
   {
     name: "Tinkercad",
-    imgPath: "/images/logos/Tinkercad.png",
+    imgPath: "images/logos/Tinkercad.png",
   },
   {
     name: "Fusion 360 (CAD Design)",
-    imgPath: "/images/logos/fusion.png",
+    imgPath: "images/logos/fusion.png",
   },
 ];
 
@@ -81,8 +81,8 @@ const expCards = [
       "Reached presentation finals in debut competition.",
       "Built foundational skills in robot design and teamwork under structured constraints.",
     ],
-    logoPath: "/images/NRC.webp",
-    image: "/images/NRCphoto.jpeg",
+    logoPath: "images/NRC.webp",
+    image: "images/NRCphoto.jpeg",
   },
   {
     title: "FIRST LEGO League (FLL)",
@@ -92,8 +92,8 @@ const expCards = [
       "Learned to conduct research and develop innovative solutions to real-world problems.",
       "Developed foundational robot design and iteration skills.",
     ],
-    logoPath: "/images/FLL.png",
-    image: "/images/FLL2024.jpeg",
+    logoPath: "images/FLL.png",
+    image: "images/FLL2024.jpeg",
   },
   {
     title: "World Robot Olympiad (WRO)",
@@ -103,8 +103,8 @@ const expCards = [
       "Designed a modular robot focused on adaptability across changing mission conditions.",
       "Optimised code structure for fast on-the-spot adjustments and debugging under time constraints.",
     ],
-    logoPath: "/images/wro.webp",
-    image: "/images/WRO2024.jpeg",
+    logoPath: "images/wro.webp",
+    image: "images/WRO2024.jpeg",
   },
   {
     title: "FIRST LEGO League (FLL)",
@@ -114,8 +114,8 @@ const expCards = [
       "🏆 Best Robot Run Award.",
       "Earned invitation to FLL Open International Championship (Houston, USA).",
     ],
-    logoPath: "/images/FLL.png",
-    image: "/images/FLL2025.png",
+    logoPath: "images/FLL.png",
+    image: "images/FLL2025.png",
   },
   {
     title: "World Robot Olympiad (WRO)",
@@ -125,8 +125,8 @@ const expCards = [
       "🏆 Best Robot Performance Award.",
       "🥈 International Silver Medal representing Singapore.",
     ],
-    logoPath: "/images/wro.webp",
-    image: "/images/WRO2025.jpeg",
+    logoPath: "images/wro.webp",
+    image: "images/WRO2025.jpeg",
   },
 ];
 
@@ -134,12 +134,12 @@ const socialImgs = [
   {
     name: "github",
     url: "https://github.com/Duck839",
-    imgPath: "/images/github.png",
+    imgPath: "images/github.png",
   },
   {
     name: "gmail",
     url: "https://mail.google.com/mail/?view=cm&fs=1&to=jingyuanlee1@gmail.com",
-    imgPath: "/images/gmail.png",
+    imgPath: "images/gmail.png",
   },
 ];
 
@@ -161,33 +161,33 @@ const techSpecs = [
   {
     title: "EVO Microcontroller",
     desc: "ESP32-S3 based custom controller with 4 EV3 motor ports, 8 servo ports, and 8 I2C multiplexed ports.",
-    imgPath: "/images/microcontroller.png",
+    imgPath: "images/microcontroller.png",
     link: "/evo",
   },
   {
     title: "TCS34725 x 4",
     desc: "RGB colour sensors for line following and colour identification across the game board.",
-    imgPath: "/images/colour-sensor.png",
+    imgPath: "images/colour-sensor.png",
   },
   {
     title: "BNO055 IMU",
     desc: "9-axis inertial measurement unit providing precise heading data for gyro-stabilised movement and spot turns.",
-    imgPath: "/images/bno.png",
+    imgPath: "images/bno.png",
   },
   {
     title: "HuskyLens",
     desc: "AI vision sensor for real-time colour block detection and classification during autonomous runs.",
-    imgPath: "/images/camera.png",
+    imgPath: "images/camera.png",
   },
   {
     title: "Motors x 3",
     desc: "2 motors powering the differential drive base, 1 motor for primary attachment actuation.",
-    imgPath: "/images/motor.png",
+    imgPath: "images/motor.png",
   },
   {
     title: "Servo Motors x 2",
     desc: "Precision servo motors controlling attachment mechanisms with accurate positional feedback.",
-    imgPath: "/images/servo.png",
+    imgPath: "images/servo.png",
   },
 ];
 
@@ -201,7 +201,7 @@ const mechanisms = [
       "On pickup — grabber closes first until it grips the object, then the parallel linkages lift everything upward.",
       "On release — linkages lower first, then grabber opens to drop the object.",
     ],
-    videoSrc: "/images/Motor1.gif",
+    videoSrc: "images/Motor1.gif",
   },
   {
     id: "02",
@@ -213,7 +213,7 @@ const mechanisms = [
       "A rubber band holds each hook in the default closed position passively.",
       "This allows one servo to independently control two hooks, enabling selective pickup and release of WRO game pieces called Research samples.",
     ],
-     videoSrc: "/images/servo1.gif",
+     videoSrc: "images/servo1.gif",
   },
   {
     id: "03",
@@ -222,7 +222,7 @@ const mechanisms = [
       "A servo drives a large 3D printed ball grabber that scoops a ball from a container, then rotates back to deposit it into a holder tilted toward the back of the robot, held in place by two 5-hole half beams.",
       "A straight arm on the same servo, when rotated further back, pushes down a lever linkage connected to the 5-hole half beams — rotating it down and releasing the ball out the back due to the tilt.",
     ],
-    videoSrc: "/images/servo2a.gif",
+    videoSrc: "images/servo2a.gif",
   },
   {
     id: "04",
@@ -232,7 +232,7 @@ const mechanisms = [
       "With the Lift & Grab Mechanism locked in place, it can safely open the grabber in midair without the arm dropping — allowing precise mid-air release of samples.",
       "One servo simultaneously handles ball collection, ball release, and locking the Lift & Grab Mechanism — three actions driven by a single actuator.",
     ],
-    videoSrc: "/images/servo2b.gif",
+    videoSrc: "images/servo2b.gif",
   },
 ];
 
@@ -350,57 +350,57 @@ const algorithms = [
 ];
 
 const nationalPhotos = [
-  { imgPath: "/images/gallery/national1.jpeg", alt: "Nationals photo 1" },
-  { imgPath: "/images/gallery/national2.jpeg", alt: "Nationals photo 2" },
-  { imgPath: "/images/gallery/national3.jpeg", alt: "Nationals photo 3" },
-  { imgPath: "/images/gallery/national4.jpeg", alt: "Nationals photo 4" },
-  { imgPath: "/images/gallery/national5.jpeg", alt: "Nationals photo 5" },
-  { imgPath: "/images/gallery/national6.jpeg", alt: "Nationals photo 6" },
-  { imgPath: "/images/gallery/national7.jpeg", alt: "Nationals photo 7" },
-  { imgPath: "/images/gallery/national8.jpeg", alt: "Nationals photo 8" },
-  { imgPath: "/images/gallery/national9.jpeg", alt: "Nationals photo 9" },
-  { imgPath: "/images/gallery/national10.jpeg", alt: "Nationals photo 10" },
+  { imgPath: "images/gallery/national1.jpeg", alt: "Nationals photo 1" },
+  { imgPath: "images/gallery/national2.jpeg", alt: "Nationals photo 2" },
+  { imgPath: "images/gallery/national3.jpeg", alt: "Nationals photo 3" },
+  { imgPath: "images/gallery/national4.jpeg", alt: "Nationals photo 4" },
+  { imgPath: "images/gallery/national5.jpeg", alt: "Nationals photo 5" },
+  { imgPath: "images/gallery/national6.jpeg", alt: "Nationals photo 6" },
+  { imgPath: "images/gallery/national7.jpeg", alt: "Nationals photo 7" },
+  { imgPath: "images/gallery/national8.jpeg", alt: "Nationals photo 8" },
+  { imgPath: "images/gallery/national9.jpeg", alt: "Nationals photo 9" },
+  { imgPath: "images/gallery/national10.jpeg", alt: "Nationals photo 10" },
 ];
 
 const internationalPhotos = [
   {
-    imgPath: "/images/gallery/international1.jpeg",
+    imgPath: "images/gallery/international1.jpeg",
     alt: "Internationals photo 1",
   },
   {
-    imgPath: "/images/gallery/international2.jpeg",
+    imgPath: "images/gallery/international2.jpeg",
     alt: "Internationals photo 2",
   },
   {
-    imgPath: "/images/gallery/international3.jpeg",
+    imgPath: "images/gallery/international3.jpeg",
     alt: "Internationals photo 3",
   },
   {
-    imgPath: "/images/gallery/international4.jpeg",
+    imgPath: "images/gallery/international4.jpeg",
     alt: "Internationals photo 4",
   },
   {
-    imgPath: "/images/gallery/international5.jpeg",
+    imgPath: "images/gallery/international5.jpeg",
     alt: "Internationals photo 5",
   },
   {
-    imgPath: "/images/gallery/international6.jpeg",
+    imgPath: "images/gallery/international6.jpeg",
     alt: "Internationals photo 6",
   },
   {
-    imgPath: "/images/gallery/international7.jpeg",
+    imgPath: "images/gallery/international7.jpeg",
     alt: "Internationals photo 7",
   },
   {
-    imgPath: "/images/gallery/international8.jpeg",
+    imgPath: "images/gallery/international8.jpeg",
     alt: "Internationals photo 8",
   },
   {
-    imgPath: "/images/gallery/international9.jpeg",
+    imgPath: "images/gallery/international9.jpeg",
     alt: "Internationals photo 9",
   },
   {
-    imgPath: "/images/gallery/international10.jpeg",
+    imgPath: "images/gallery/international10.jpeg",
     alt: "Internationals photo 10",
   },
 ];

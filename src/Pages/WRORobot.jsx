@@ -267,7 +267,7 @@ const WRORobot = () => {
             <h3 className="text-xl font-semibold">National Finals 2025</h3>
             <p className="text-white-50 text-sm">Singapore</p>
             <video
-              src="/images/national-run.mp4"
+              src="images/national-run.mp4"
               controls
               playsInline
               className="w-full rounded-xl border border-black-50 bg-zinc-900"
@@ -277,7 +277,7 @@ const WRORobot = () => {
             <h3 className="text-xl font-semibold">International Finals 2025</h3>
             <p className="text-white-50 text-sm">Singapore</p>
             <video
-              src="/images/international-run.mp4"
+              src="images/international-run.mp4"
               controls
               playsInline
               className="w-full rounded-xl border border-black-50 bg-zinc-900"

@@ -2,7 +2,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function EvoModel(props) {
-  const { nodes, materials } = useGLTF('/models/EvoModel.glb')
+  const { nodes, materials } = useGLTF('models/EvoModel.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Cube.geometry} material={materials.Material} />
@@ -14,4 +14,4 @@ export function EvoModel(props) {
   )
 }
 
-useGLTF.preload('/models/EvoModel.glb')
+useGLTF.preload('models/EvoModel.glb')

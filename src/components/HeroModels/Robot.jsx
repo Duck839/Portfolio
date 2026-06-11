@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Robot(props) {
-  const { nodes, materials } = useGLTF('/models/robot.glb')
+  const { nodes, materials } = useGLTF('models/robot.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.robotv5_1.geometry} material={materials['Plastic_-_Translucent_Glossy_(Red).003']} />
@@ -75,4 +75,4 @@ export function Robot(props) {
   )
 }
 
-useGLTF.preload('/models/robot.glb')
+useGLTF.preload('models/robot.glb')
