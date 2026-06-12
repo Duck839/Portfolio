@@ -3,7 +3,6 @@ import { useRef, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Robot } from "./Robot";
 import HeroLights from "./HeroLights";
 import { Model } from "./Wrorobot";
 

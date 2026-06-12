@@ -175,13 +175,16 @@ const WRORobot = () => {
             <p className="text-white-50 text-lg leading-relaxed">
               WRO RoboMission is a fully autonomous robot challenge where teams
               design, build, and program robots to complete missions on a themed
-              game board — with no human control once the run starts.
+              game board — with no human control once the run starts. Adding to
+              the challenge, teams face a Surprise Mission revealed only hours
+              before competing, demanding rapid adaptation with no prior
+              preparation.
             </p>
             <p className="text-white-50 text-lg leading-relaxed">
               In 2025, AstroNuts competed across national and international
-              stages. The robot was developed through 5 major iterations from
-              April to December, with a focus on sensor reliability, modular
-              attachment design, and PID-controlled movement precision.
+              stages. The robot was developed from April to December, with a
+              focus on reliability, adaptable attachment design, and precise
+              movement.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -214,7 +217,7 @@ const WRORobot = () => {
           title="Hardware System"
           sub="Tech Specs"
         />
-        <FeatureCards constant={techSpecs} />
+        <FeatureCards constant={techSpecs} cols="4" />
       </section>
 
       {/* MECHANISMS */}

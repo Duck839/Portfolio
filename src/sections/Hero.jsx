@@ -7,9 +7,13 @@ import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter";
 
 const Hero = () => {
-    useGSAP(() => {
-        gsap.fromTo('.hero-text h1', { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power2.inOut" });
-    }, []);
+  useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power2.inOut" },
+    );
+  }, []);
   return (
     <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
@@ -44,10 +48,10 @@ const Hero = () => {
               </h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none max-w-lg">
-              I'm Jing Yuan, a student engineer. I design custom 3D-printed
-              mechanics, write precise control logic in C++ and Python, and
-              tackle advanced algorithms. I don't just love code—I love making
-              it move.
+              I design custom 3D-printed mechanisms, write control logic in C++
+              and Python, and compete in robotics and algorithms at a national
+              level. I design the parts, print them, wire them up, and write
+              the code that drives them.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
@@ -63,7 +67,7 @@ const Hero = () => {
         </figure>
         {/*Right: 3d model*/}
       </div>
-      <AnimatedCounter constant={counterItems}/>
+      <AnimatedCounter constant={counterItems} />
     </section>
   );
 };

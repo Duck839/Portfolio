@@ -133,7 +133,7 @@ const expCards = [
 const socialImgs = [
   {
     name: "github",
-    url: "https://github.com/Duck839",
+    url: "https://github.com/lee-jingyuan",
     imgPath: "images/github.png",
   },
   {
@@ -176,18 +176,28 @@ const techSpecs = [
   },
   {
     title: "HuskyLens",
-    desc: "AI vision sensor for real-time colour block detection and classification during autonomous runs.",
+    desc: "AI vision sensor for real-time colour block detection during autonomous runs.",
     imgPath: "images/camera.png",
   },
   {
     title: "Motors x 3",
-    desc: "2 motors powering the differential drive base, 1 motor for primary attachment actuation.",
+    desc: "2 motors powering the drive base, 1 motor for primary attachment actuation.",
     imgPath: "images/motor.png",
   },
   {
     title: "Servo Motors x 2",
     desc: "Precision servo motors controlling attachment mechanisms with accurate positional feedback.",
     imgPath: "images/servo.png",
+  },
+  {
+    title: "External Screen x 1",
+    desc: " Displays a pre-run diagnostic menu that verify sensors, tune parameters, and calibrate the robot before starting the mission.",
+    imgPath: "images/display.png",
+  },
+  {
+    title: "NeoPixel x 8",
+    desc: " 8 NeoPixels mounted beneath the grabber illuminate held game pieces, ensuring consistent lighting for accurate HuskyLens colour detection.",
+    imgPath: "images/led-strip.png",
   },
 ];
 
@@ -213,7 +223,7 @@ const mechanisms = [
       "A rubber band holds each hook in the default closed position passively.",
       "This allows one servo to independently control two hooks, enabling selective pickup and release of WRO game pieces called Research samples.",
     ],
-     videoSrc: "images/servo1.gif",
+    videoSrc: "images/servo1.gif",
   },
   {
     id: "03",
@@ -266,7 +276,7 @@ const evoNavLinks = [
 const ports = [
   { label: "EV3 Motor Ports", value: "4", suffix: "x" },
   {
-    label: "Motor Ports with Encoder (SFhared with ev3 motors)",
+    label: "Motor Ports with Encoder (Shared with ev3 motors)",
     value: "4",
     suffix: "x",
   },
@@ -313,9 +323,15 @@ const robotSetup = [
   { title: "HuskyLens x 1", desc: "AI colour block detection" },
   { title: "Motors x 3", desc: "Drive base + attachment" },
   { title: "Servo Motors x 2", desc: "Attachment control" },
-  { title: "External Screen x 1", desc: "View inforamtion for calibration and debugging" },
+  {
+    title: "External Screen x 1",
+    desc: "View inforamtion for calibration and debugging",
+  },
   { title: "External Buttons x 4", desc: "Control screen and start/stop" },
-  { title: "NeoPixel LED x 8", desc: "Light up game piece for better scanning" },
+  {
+    title: "NeoPixel LED x 8",
+    desc: "Light up game piece for better scanning",
+  },
 ];
 
 const noiNavLinks = [

@@ -1,7 +1,6 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
-import { Robot } from "./Robot";
 import HeroLights from "./HeroLights";
 import { Model } from "./Wrorobot";
 

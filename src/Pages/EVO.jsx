@@ -128,13 +128,13 @@ const EVO = () => {
         <div className="mt-16 grid-2-cols items-center gap-10">
           <div className="flex flex-col gap-4">
             <p className="text-white-50 text-lg leading-relaxed">
-              EVO is a custom microcontroller designed by my CCA coach specifically for competitive robotics. Built on the ESP32-S3, it was created to overcome the port limitations of standard LEGO controllers like the EV3 and SPIKE Prime — which cap out at 4 motors and 4 sensors, or 6 combined ports.
+              EVO is a custom microcontroller designed by my CCA coach. Built on the ESP32-S3, it was created to overcome the port limitations of standard LEGO controllers like the EV3 and SPIKE Prime — which cap out at 4 motors and 4 sensors, or 6 combined ports.
             </p>
             <p className="text-white-50 text-lg leading-relaxed">
               In 2025, WRO opened the category to allow open electronics alongside LEGO components. EVO was built to take full advantage of this — enabling teams to connect far more sensors, servos, and motors than any LEGO controller allows, while remaining WRO legal.
             </p>
             <p className="text-white-50 text-lg leading-relaxed">
-              Within the club, EVO was made available to advanced teams. I was among the first to use it in competition, contributing to its development and testing as part of the AstroNuts WRO 2025 campaign.
+              Within the club, EVO was made available to advanced teams. My team was among the first to use it in competition, contributing to its development and testing.
             </p>
           </div>
 
