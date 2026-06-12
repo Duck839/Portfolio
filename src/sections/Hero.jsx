@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
       <div className="hero-layout">
         {/*LEFT: Hero content*/}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+        <header className="flex flex-col justify-center md:justify-start md:w-[55%] xl:w-full w-screen md:px-10 xl:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>I am</h1>
